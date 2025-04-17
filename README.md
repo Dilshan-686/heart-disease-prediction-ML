@@ -21,14 +21,12 @@ Cardiovascular diseases are one of the leading causes of death worldwide. Early 
 
 ## ⚙️ Algorithms Implemented
 
-This project applies and compares four supervised learning algorithms:
+This project applies and compares the performance of:
 
 - ✅ **Logistic Regression**
 - ✅ **Random Forest**
-- ✅ **K-Nearest Neighbors (KNN)**
-- ✅ **Support Vector Machine (SVM)**
 
-Each model was evaluated using:
+Both models were evaluated using:
 - Accuracy
 - Precision
 - Recall
@@ -39,17 +37,17 @@ Each model was evaluated using:
 
 ## 📈 Results
 
-All four models performed well, with **Logistic Regression** and **Random Forest** achieving an accuracy of approximately **88%**. The models showed balanced precision and recall, with only minor misclassifications.
-
-Confusion matrices were used to visually compare model performance, confirming their reliability and consistency across the board.
+- **Logistic Regression** and **Random Forest** both achieved an accuracy of approximately **88%**.
+- Metrics were well-balanced between classes.
+- Confusion matrices showed consistent performance, with only a few misclassifications.
 
 ---
 
 ## 🔍 Key Learnings
 
-- Logistic Regression, while simple, performed as well as Random Forest for this dataset.
-- Random Forest added robustness and feature handling but didn't significantly outperform the linear model.
-- KNN and SVM provided useful points of comparison, demonstrating how different algorithmic approaches perform under the same conditions.
+- Logistic Regression, though simple, was very effective.
+- Random Forest added robustness but didn’t significantly outperform the linear model.
+- Simpler models can perform surprisingly well when the data is clean and informative.
 
 ---
 
